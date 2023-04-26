@@ -51,7 +51,7 @@ const ConfigurationController = () => (
                 checked={showLeftNavbar}
               />
               <label htmlFor="content" className="label-content">
-                LeftNavbar
+                Left Navbar
               </label>
             </li>
             <li className="controller">
@@ -63,7 +63,7 @@ const ConfigurationController = () => (
                 checked={showRightNavbar}
               />
               <label htmlFor="content" className="label-content">
-                RightNavbar
+                Right Navbar
               </label>
             </li>
           </ul>

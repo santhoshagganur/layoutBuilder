@@ -26,8 +26,21 @@ const Body = () => (
               <h1 className="show-content-heading"> Content </h1>
               <p className="show-content">
                 Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do
-                elusmod
+                elusmod tempor incididunt ut labore etdolore magna aliqua. Ut
+                enim ad minim veniam.
               </p>
+            </div>
+          ) : null}
+
+          {showRightNavbar ? (
+            <div className="right-navbar-container">
+              <h1 className="left-nav-heading"> Right Navbar </h1>
+              <div className="adds">
+                <p> Ad 1 </p>
+              </div>
+              <div className="adds">
+                <p> Ad 2 </p>
+              </div>
             </div>
           ) : null}
         </div>

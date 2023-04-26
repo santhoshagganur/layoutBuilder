@@ -1,11 +1,13 @@
 /* Write your CSS here */
 .body-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .left-navbar-container {
   background-color: #e2e8f0;
   padding: 20px;
+  text-align: left;
 }
 
 .left-nav-heading {
@@ -19,6 +21,35 @@
 }
 
 .list-item {
-  color: #cbd5e1;
-  font-size: 10px;
+  color: #64748b;
+  font-size: 15px;
+}
+
+.show-content-container {
+  background-color: #f1f5f9;
+  padding: 20px;
+}
+
+.show-content-heading {
+  color: #475569;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.show-content {
+  color: #64748b;
+  font-size: 20px;
+}
+
+.right-navbar-container {
+  background-color: #e2e8f0;
+  padding: 20px;
+  text-align: right;
+}
+
+.adds {
+  border: 2px solid #cbd5e1;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
 }
