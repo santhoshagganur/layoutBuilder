@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.header-container {
+  background-color: #cbd5e1;
+  text-align: center;
+}
+
+.header-text {
+  color: #475569;
+  font-size: 25px;
+  font-weight: 500;
+}
